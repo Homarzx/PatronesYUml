@@ -3,7 +3,7 @@ package strategy;
 public class Ciclista implements TransporteStrategy{
 
 	@Override
-	public void tranportar() {
+	public void transportar() {
 		System.out.println("Vamos por bicleta");
 		
 	}

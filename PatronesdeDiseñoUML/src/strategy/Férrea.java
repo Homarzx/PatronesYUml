@@ -3,7 +3,7 @@ package strategy;
 public class Férrea implements TransporteStrategy {
 
 	@Override
-	public void tranportar() {
+	public void transportar() {
 		System.out.println("Vamor por ferrocarril");
 		
 	}
