@@ -3,7 +3,7 @@ package strategy;
 public class Navigator {
 	private TransporteStrategy t;
 	public void transportar() {
-		System.out.println("Estoy transportando");
+		t.transportar();
 	}
 	
 	 public void setTransporteStrategy(TransporteStrategy strategy){
